@@ -1,0 +1,44 @@
+.title {
+  text-align: center;
+  color: #212Ea0;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 70px 0 30px;
+}
+
+.title h2 {
+  font-size: 32px;
+  color: #000F38;
+  margin-top: 5px;
+  text-transform: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .title {
+    margin: 50px 0 20px; /* Reduced margins for smaller screens */
+  }
+
+  .title {
+    font-size: 14px; /* Smaller subtitle font size */
+  }
+
+  .title h2 {
+    font-size: 28px; /* Smaller title font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    margin: 40px 0 15px; /* Further reduced margins for extra small screens */
+  }
+
+  .title {
+    font-size: 13px; /* Even smaller subtitle font size */
+  }
+
+  .title h2 {
+    font-size: 24px; /* Even smaller title font size */
+  }
+}

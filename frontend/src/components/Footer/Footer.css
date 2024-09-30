@@ -1,0 +1,45 @@
+.footer {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+    max-width: 90%;
+}
+
+.footer p {
+    color: #676767; /* Set color for better visibility */
+}
+
+.footer ul {
+    padding: 0; /* Reset padding for the list */
+    margin: 0;  /* Reset margin for the list */
+}
+
+.footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: #676767; /* Set color for list items */
+    cursor: pointer; /* Add cursor pointer for interactivity */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+        text-align: center; /* Center text */
+    }
+
+    .footer ul {
+        margin-top: 10px; /* Add some space above the list */
+    }
+
+    .footer ul li {
+        display: block; /* Stack list items vertically */
+        margin-left: 0; /* Reset left margin */
+        margin-top: 5px; /* Add space between items */
+    }
+}

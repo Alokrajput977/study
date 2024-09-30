@@ -1,0 +1,79 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(9, 0, 58, 0.7), rgba(9, 0, 58, 0.7)),
+    url("../../assets/hero.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; /* Center text */
+}
+
+.hero-text {
+  max-width: 800px;
+  padding: 20px; /* Add padding */
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.hero-text p {
+  max-width: 700px;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+}
+
+.btn {
+  background: white;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 40px; /* Smaller heading on mobile */
+  }
+
+  .hero-text p {
+    font-size: 16px; /* Smaller text for paragraph */
+  }
+
+  .btn {
+    padding: 12px 20px; /* Smaller button padding */
+    font-size: 14px; /* Smaller font size for button */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 32px; /* Even smaller heading */
+  }
+
+  .hero-text p {
+    font-size: 14px; /* Smaller paragraph text */
+  }
+
+  .btn {
+    padding: 10px 15px; /* Smaller button padding */
+    font-size: 12px; /* Smaller font size for button */
+  }
+}
